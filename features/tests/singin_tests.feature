@@ -1,6 +1,6 @@
-# Created by stcra at 1/15/2024
-Feature: # Enter feature name here
-  # Enter feature description here
+# Created by Chris at 1/15/2024
+Feature: User Signin
 
-  Scenario: # Enter scenario name here
-    # Enter steps here
+
+  Scenario: User Signin
+    Given Open Home Page
