@@ -7,5 +7,5 @@ class Application:
         self.driver = driver
         self.main_page = MainPage(self.driver)
         self.header = Header(self.driver)
-        self.signin = SigninPage(self.driver)
+        self.signin_page = SigninPage(self.driver)
 

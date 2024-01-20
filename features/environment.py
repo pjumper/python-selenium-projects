@@ -1,6 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
-#from app.application import Application
+from app.application import Application
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.service import service
 from selenium.webdriver.chrome.options import Options as ChromeOptions
@@ -115,5 +115,6 @@ def after_step(context, step):
 def after_scenario(context, feature):
    context.driver.delete_all_cookies()
    context.driver.quit()
+
 
 
