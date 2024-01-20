@@ -11,5 +11,8 @@ def click_signin(context):
 def click_signin_menu(context):
    context.app.header.click_signin_menu()
 
+@when('Click Signed in icon')
+def click_signed_in_icon(context):
+   context.app.header.click_signed_in_icon()
 
 

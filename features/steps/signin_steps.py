@@ -14,5 +14,10 @@ def input_password(context, password):
    context.app.signin_page.input_password(password)
 
 
+@when('Click Signin button')
+def click_signin_button(context):
+   context.app.signin_page.click_signin_button()
+
+
 
 

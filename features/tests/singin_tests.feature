@@ -10,3 +10,5 @@ Feature: Signin Test
    And Click Signin Menu
    When Input chriscrayton20@gmail.com in email field
    And Input Newjob#24 in password field
+   When Click Signin button
+   And Click Signed in icon
